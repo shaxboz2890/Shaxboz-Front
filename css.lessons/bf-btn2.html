@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="block1"></div>
+    <div class="block2"></div>
+    <div class="block3"></div>
+    
+</body>
+<style>
+     *,
+    ::before,
+    ::after {
+        padding: 3;
+        margin: 0;
+        /* box-sizing: border-box; */
+        transition: all 1s ease 0s;
+        text-align: center;
+    }
+    body{
+        background-color: white;
+        position: relative;
+
+    }
+    .block1{
+        margin-top: 20%;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        border-radius: 50%;
+        animation-name: test1;
+        background-color: red;
+        margin-left: 40%;
+        animation-iteration-count: infinite; 
+        animation-duration: 2s;
+         animation-fill-mode: forwards;  
+        
+
+    }
+    .block2{
+        margin-top: 20%;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        border-radius: 50%;
+        animation-name: test2;
+        background-color: red;
+        margin-left: 50%;
+        animation-iteration-count: infinite; 
+        animation-duration: 2s;
+         animation-fill-mode: forwards;  
+        
+
+    }
+    .block3{
+        margin-top: 20%;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        border-radius: 50%;
+        animation-name: test3;
+        background-color: red;
+        margin-left: 60%;
+        animation-iteration-count: infinite; 
+        animation-duration: 2s;
+         animation-fill-mode: forwards;  
+        
+
+    }
+    @keyframes test1 {
+        0% {
+            left: 0;
+        }
+
+        20% {
+           
+           background-color: black;
+           padding: 10px 20px;
+           width: 200px;
+           height: 200px;
+           animation-duration: 2s;
+        }
+
+        
+    }
+    @keyframes test2 {
+        0% {
+            left: 0;
+        }
+
+        40% {
+           
+           background-color: black;
+           padding: 10px 20px;
+           width: 200px;
+           height: 200px;
+           animation-duration: 2s;
+        }
+
+        
+    }
+    @keyframes test3 {
+        0% {
+            left: 0;
+        }
+
+        60% {
+           
+           background-color: black;
+           padding: 10px 20px;
+           width: 200px;
+           height: 200px;
+           animation-duration: 2s;
+        }
+
+        
+    }
+
+</style>
+</html>

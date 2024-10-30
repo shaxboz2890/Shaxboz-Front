@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <ul>
+        <li>Text text</li>
+        <li>Text text</li>
+        <li>Text text</li>
+        <li>Text text</li>
+        <li>Text text</li>
+        <li>Text text</li>
+        <li>Text text</li>
+        <li>Text text</li>
+        <li>Text text</li>
+        <li>Text text</li>
+    </ul>
+
+
+
+
+</body>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        transition: 1s;
+    }
+
+
+    body {
+        padding: 30px 100px;
+    }
+
+    ul li {
+        position: relative;
+        /* object-fit: cover; */
+    }
+
+    ul {
+        list-style-type: kannada;
+        /* text-transform: uppercase; */
+        font-size: 25px;
+    }
+
+    ul li:hover {
+        background: url(10.jpg) center / cover no-repeat ;
+        text-align: center;
+        width: 200px;
+        padding: 30px;
+        position: relative;
+        border-radius: 50px;
+        text-transform: uppercase;
+        background-blend-mode: darken;
+        background-color: dimgray;
+        color: snow;
+    }
+
+    li:hover::before {
+        content: '⚽';
+        position: absolute;
+        left: -40px;
+        display: inline-block;
+    }
+</style>
+
+</html>

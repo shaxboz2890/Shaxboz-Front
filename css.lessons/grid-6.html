@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+  <div class="container">
+    <div class="block1">
+        <div></div>
+        <div></div>
+    </div>
+    <div class="block2">
+        <div></div>
+        <div></div>
+    </div>
+  </div>
+
+</body>
+<style>
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+  .container{
+    display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        gap: 10px;
+        margin: 0 auto;
+        width: 70%;
+        background-color: #333;
+  }
+
+  .block1{
+    background-color: gray;
+    height: 200px;
+  }
+
+  .container .block1 .block2:last-child{
+    background-color: #444;
+  }
+
+  .block2{
+    background-color: gray;
+    height: 200px;
+  }
+
+</style>
+</html>

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+a:hover{
+    opacity: 0;
+}
+
+div{background-color: gray;}
+
+.inline{
+    display: inline;    
+}
+
+.inline h4{
+    background-color: gray;
+    display: inline-block;
+    display: block;
+}
+
+.inline-block{
+    display: inline;
+    display: inline-block;
+    display: block;
+    background-color: gray;
+    height: 200px;
+    width: 200px;
+    display: none;
+}
+
+a{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    background-color: gray;
+    color: snow;
+    text-decoration: none;
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    display: none;
+
+}
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Varibies</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">Css Varibies</div>
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, accusamus! Error iste ratione facilis
+                quos ab mollitia quidem repudiandae dolore quia eveniet quod id culpa et incidunt, aliquam sunt saepe?
+                Deserunt, eum molestiae ut vero qui soluta deleniti, suscipit recusandae a delectus ullam? Aliquam rerum
+                ipsam atque eum excepturi obcaecati!</p>
+        </div>
+        <a href="#" class="btn">Learn More</a>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repudiandae aspernatur, blanditiis laudantium
+        maiores eveniet vero molestias. Dolorem nihil ad necessitatibus dolores sequi inventore ab iste fugit expedita,
+        dolore magni.</p>
+
+</body>
+
+<style>
+    * {
+        padding: 30px;
+    }
+
+    :root {
+        --radius: 30px;
+        --width: 100%;
+        --white: #ff0020;
+        --white: #f2f2f2;
+        --red: #ff0020;
+        --red: #f2f2f2;0
+        --black: #121212;
+        --regular-size: 16px;
+        --padding: 2.5rem;
+    }
+
+    html {
+        font-size: var(--regular-size);
+    }
+
+
+    body {
+        min-width: 100%;
+        min-height: 100vh;
+        margin: 0;
+        background-color: var(--black);
+        font-size: 1rem;
+        line-height: 1.6;
+        color: var(--white);
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    .container {
+        --white: #0066f5;
+        --green: green;
+        --width: 600px;
+        width: 100%;
+        max-width: var(--width);
+        width: 50%;
+        margin: 20px auto;
+        padding: var(--padding);
+        border: 2px solid var(--green);
+        border-radius: var(--radius, 10px);
+    }
+
+
+    
+    .title {
+        font-size: 2.5rem;
+        color: var(--red);
+    }
+
+    .text {
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+        color: var(--green);
+    }
+
+    .btn {
+        --white: 40px;
+
+        display: inline-block;
+        vertical-align: top;
+        padding: var(--green);
+
+        background-color: transparent;
+        border: 2px solid var(--red);
+        border-radius: var(--radius, 8px);
+        font-size: var(--green);
+        color: var(--green);
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        background-color: var(--red);
+    }
+
+    @media (max-width: 400px) {
+
+        :root {
+            --regular-size: 14px;
+            --padding: 1.5rem;
+        }
+    }
+</style>
+
+</html>

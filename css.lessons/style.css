@@ -1,0 +1,1460 @@
+*, 
+*::after,
+*::before{
+      box-sizing: border-box;
+      transition: 1s;
+      list-style-type: none;
+      text-decoration: none;
+      list-style-type: none;
+}
+
+main{
+    margin: 0 auto;
+    width: 1800px;
+}
+
+.websayt-menu{
+    position: relative;
+    top: -40px;
+}
+
+.websayt-menu img{
+    position: absolute;
+    left: 150px;
+    top: 80px;
+}
+
+.websayt-menu input{
+    padding: 20px;
+    width: 537px;
+    position: absolute;
+    top: 63px;
+    left: 520px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.websayt-menu .btn1{
+    padding: 21px 26px;
+    background-color: blue;
+    color: snow;
+    border: 0;
+    position: absolute;
+    top: 63px;
+    left: 961px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    }
+
+.websayt-menu .img2{
+    position: absolute;
+    left: 1200px;
+    top: 83px;
+}
+
+.websayt-menu-bar{
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    left: 135px;
+    top: 95px;
+}
+
+.websayt-menu-bar .left{
+    display: inline-block;
+}
+
+.websayt-menu-bar .left p{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.websayt-menu-bar .left img{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+
+.websayt-menu-bar .middle ul li{
+    display: inline-block;
+}
+
+.websayt-menu-bar .middle ul{
+    position: absolute;
+    width: 100%;
+    left: 180px;
+}
+
+.websayt-menu-bar .middle ul li a{
+    color: black;
+    padding: 10px 24px;
+}
+
+.websayt-menu-bar .right{
+    position: absolute;
+    left: 1160px;
+}
+
+.websayt-menu-hero{
+    position: absolute;
+    top: 180px;
+    background: url(/nordwood-themes-eGHlWS-zQSM-unsplash\ 1.jpg) center / cover no-repeat;
+    width: 1510px;
+    height: 550px;
+}
+
+.blue{
+    width: 900px;
+    background-color: rgb(2, 36, 103);
+    height: 549.5px;
+    position: relative;
+}
+
+.websayt-menu-hero .blue  img{
+    position: absolute;
+    left: 630px;
+    top: 15px;
+}
+
+.websayt-menu-hero .blue .left img{
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+
+.websayt-menu-hero .blue .middle h1{
+    color: rgb(0, 131, 192);
+    position: absolute;
+    top: 140px;
+    left: 170px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.websayt-menu-hero .blue .middle .h2-1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 150px;
+    left: 170px;
+}
+
+.websayt-menu-hero .blue .middle .h2-2{
+    color: rgb(1, 203, 214);
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 164px;
+}
+
+.websayt-menu-hero .blue .middle h5{
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 255px;
+    left: 170px;
+}
+
+.websayt-menu-hero .blue .middle button{
+    color: black;
+    background-color: white;
+    border: 0;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 340px;
+    left: 170px;
+}
+
+.websayt-menu-hero .blue .middle img{
+    position: absolute;
+    left: 1400px;
+    top: 250px;
+}
+
+.websayt-menu-hero .blue .middle .input{
+    position: absolute;
+    left: 760px;
+    top: 525px;
+}
+
+.grid-footer{
+    position: relative;
+}
+
+.grid-footer .shopping{
+    position: relative;
+    top: 830px;
+    left: 10px;
+    border: 0.1px solid gray;
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+}
+
+.grid-footer .shopping h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+
+
+.grid-footer .shopping b{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    position: absolute;
+    top: 45px;
+    left: 80px;
+}
+
+.grid-footer .paynet{
+    position: relative;
+    top: 829px;
+    left: 20px;
+    border: 0.1px solid gray;
+    display: inline-block;
+    padding: 12px;
+    width: 20%;
+}
+
+.grid-footer .paynet h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+
+.grid-footer .paynet b{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    position: absolute;
+    top: 45px;
+    left: 80px;
+}
+
+.grid-footer .gift{
+    position: relative;
+    top: 830px;
+    left: 40px;
+    border: 0.1px solid gray;
+    display: inline-block;
+    padding: 12px;
+    width: 20%;
+}
+
+.grid-footer .gift h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+
+.grid-footer .gift b{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    position: absolute;
+    top: 45px;
+    left: 80px;
+}
+
+.grid-footer .support{
+    position: relative;
+    top: 830px;
+    left: 60px;
+    border: 0.1px solid gray;
+    display: inline-block;
+    padding: 12px;
+    width: 20%;
+}
+
+.grid-footer .support h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+
+.grid-footer .support b{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    position: absolute;
+    top: 45px;
+    left: 80px;
+}
+
+.new-arrival{
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    left: 0;
+    top: 870px;
+    display: inline-block;
+}
+
+.new-arrival .top-callection1{
+    width: 550px;
+    background: url(Untitled-1\ 1.png) center / cover no-repeat;
+    height: 440px;
+    color: rgb(2, 36, 103);
+    display: inline-block;
+    position: relative;
+    left: 95px;
+    top: 180px;
+}
+
+.new-arrival .top-callection1 h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 390px;
+    top: 190px;
+}
+
+.new-arrival .top-callection1 h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 375px;
+    font-size: 20px;
+    top: 230px;
+}
+
+.new-arrival .top-callection1 button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100px;
+    background-color: rgb(1, 32, 92);
+    color: white;
+    position: absolute;
+    left: 390px;
+    top: 290px;
+    padding: 15px 25px;
+} 
+
+.new-arrival .top-callection2{
+    width: 550px;
+    background: url(Untitled-2\ 1.png) center / cover no-repeat;
+    height: 440px;
+    color: rgb(2, 36, 103);
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 180px;
+}
+
+.new-arrival .top-callection2 h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 350px;
+    top: 190px;
+}
+
+.new-arrival .top-callection2 h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 330px;
+    font-size: 20px;
+    top: 225px;
+}
+
+.new-arrival .top-callection2 button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100px;
+    background-color: rgb(1, 32, 92);
+    color: white;
+    position: absolute;
+    left: 350px;
+    top: 283px;
+    padding: 15px 25px;
+} 
+
+.rectangle{
+    position: relative;
+    top: 1200px;
+    width: 100%;
+}
+
+
+.rectangle h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 580px;
+}
+
+.rectangle p{
+    color: gray;
+    position: relative;
+    left: -130px;
+    text-align: center;
+}
+
+.rectangle ul li{
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    position: relative;
+    left: 400px;
+}
+
+.rectangle ul li a{
+    color: black;
+}
+
+.rectangle ul li a:hover{
+    color: white;
+    background-color: darkblue;
+    padding: 15px 20px;
+}
+
+.clothes{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 150px;
+    grid-template-columns: 0.28fr 0.28fr 0.28fr;
+    grid-template-rows: 0.25fr 0.25fr;
+    position: relative;
+    top: 1300px;
+}
+
+.clothes .clothes1{
+    background: url(1\ 1.png) center / cover no-repeat;
+    position: relative;
+    height: 440px;
+}
+
+.clothes .clothes1 h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 445px;
+    left: 30px;
+}
+
+.clothes .clothes1 img{
+    position: absolute;
+    top: 470px;
+    left: 400px;
+}
+
+.clothes .clothes1 button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    padding: 15px 25px;
+    background-color: white;
+    left: 40px;
+}
+
+.clothes .clothes1:hover button{
+    background-color: darkblue;
+    color: white;
+}
+
+.clothes .clothes1 .h3-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    left: 400px;
+}
+
+.clothes .clothes1 .img1{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    opacity: 0;
+}
+
+.clothes .clothes1:hover .img1{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    opacity: 1;
+}
+
+.clothes .clothes2{
+    background: url(1\ 2.png) center / cover no-repeat;
+    position: relative;
+    height: 440px;
+}
+
+.clothes .clothes2 h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 445px;
+    left: 30px;
+}
+
+.clothes .clothes2 img{
+    position: absolute;
+    top: 470px;
+    left: 400px;
+}
+
+.clothes .clothes2 button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    padding: 15px 25px;
+    background-color: white;
+    left: 40px;
+}
+
+.clothes .clothes2:hover button{
+    background-color: darkblue;
+    color: white;
+}
+
+.clothes .clothes2 .h3-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    left: 400px;
+}
+
+.clothes .clothes2 .img1{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    opacity: 0;
+}
+
+.clothes .clothes2:hover .img1{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    opacity: 1;
+}
+.clothes .clothes3{
+    background: url(1\ 3.png) center / cover no-repeat;
+    position: relative;
+    height: 440px;
+}
+
+.clothes .clothes3 h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 445px;
+    left: 30px;
+}
+
+.clothes .clothes3 img{
+    position: absolute;
+    top: 470px;
+    left: 400px;
+}
+
+.clothes .clothes3 button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    padding: 15px 25px;
+    background-color: white;
+    left: 40px;
+}
+
+.clothes .clothes3:hover button{
+    background-color: darkblue;
+    color: white;
+}
+
+
+.clothes .clothes3 .h3-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    left: 400px;
+}
+.clothes .clothes3 .img1{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    opacity: 0;
+}
+
+.clothes .clothes3:hover .img1{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    opacity: 1;
+}
+
+.clothes .clothes4{
+    background: url(1\ 4.png) center / cover no-repeat;
+    position: relative;
+    height: 440px;
+}
+
+.clothes .clothes4 h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 445px;
+    left: 30px;
+}
+
+.clothes .clothes4 img{
+    position: absolute;
+    top: 470px;
+    left: 400px;
+}
+
+.clothes .clothes4 button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    padding: 15px 25px;
+    background-color: white;
+    left: 40px;
+}
+
+.clothes .clothes4:hover button{
+    background-color: darkblue;
+    color: white;
+}
+
+.clothes .clothes4 .h3-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    left: 400px;
+}
+
+.clothes .clothes4 .img1{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    opacity: 0;
+}
+
+.clothes .clothes4:hover .img1{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    opacity: 1;
+}
+
+.clothes .clothes5{
+    background: url(1\ 5.png) center / cover no-repeat;
+    position: relative;
+    height: 440px;
+}
+
+.clothes .clothes5 h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 445px;
+    left: 30px;
+}
+
+.clothes .clothes5 img{
+    position: absolute;
+    top: 470px;
+    left: 400px;
+}
+
+.clothes .clothes5 button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    padding: 15px 25px;
+    background-color: white;
+    left: 40px;
+}
+
+.clothes .clothes5:hover button{
+    background-color: darkblue;
+    color: white;
+}
+
+.clothes .clothes5 .h3-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    left: 400px;
+}
+
+.clothes .clothes5 .img1{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    opacity: 0;
+}
+
+.clothes .clothes5:hover .img1{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    opacity: 1;
+}
+
+.clothes .clothes6{
+    background: url(1\ 6.png) center / cover no-repeat;
+    position: relative;
+    height: 440px;
+}
+
+.clothes .clothes6 h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 445px;
+    left: 30px;
+}
+
+.clothes .clothes6 img{
+    position: absolute;
+    top: 470px;
+    left: 400px;
+}
+
+.clothes .clothes6 button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    padding: 15px 25px;
+    background-color: white;
+    left: 40px;
+}
+
+.clothes .clothes6:hover button{
+    background-color: darkblue;
+    color: white;
+}
+
+.clothes .clothes6 .h3-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    left: 400px;
+}
+
+.clothes .clothes6 .img1{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    opacity: 0;
+}
+
+.clothes .clothes6:hover .img1{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    opacity: 1;
+}
+
+.clothes .rectangli-button button{
+    padding: 15px 25px;
+    position: relative;
+    left: 720px;
+    border: 2px solid black;
+}
+
+.clothes .rectangli-button button:hover{
+    color: white;
+    background-color: darkblue;
+}
+
+
+.foter{
+    text-align: center;
+    position: relative;
+    top: 1450px;
+    padding: 82px;
+    background: url(Rectangle\ 36.png) center / cover no-repeat;
+    text-align: center;
+    width: 1520px;
+}
+
+.foter nav{
+    background: url(Rectangle\ 38.png) center / cover no-repeat;
+    padding: 25px;
+    width: 70%;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+}
+
+.foter nav b{
+    padding: 20px;
+}
+
+.foter nav b span{
+    border: 2px dotted darkcyan;
+    padding: 10px;
+}
+
+.blog{
+    position: relative;
+    top: 1700px;
+}
+
+.blog h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 660px;
+}
+
+.blog p{
+    color: gray;
+    position: relative;
+    left: -120px;
+    text-align: center;
+}
+
+.blog .july{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 0.8fr 0.5fr 0.8fr;
+    grid-template-rows: 0.8fr;
+    position: relative;
+    top: 50px;
+}
+
+.blog .july .fashion{
+    position: relative;
+    left: 120px;
+    background: url(image\ 1.png) center / cover no-repeat;
+    width: 370px;
+    height: 370px;
+}
+
+.blog .july .fashion .black-fon1 h4{
+    color: white;
+    position: absolute;
+    top: -1px;
+    left: 20px;
+}
+
+.blog .july .fashion .black-fon1 p{
+    position: absolute;
+    font-size: 10px;
+    left: 3px;
+    top: 370px;
+}
+
+.blog .july .fashion .black-fon1 h5{
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 3px;
+    top: 375px;
+}
+
+.blog .july .fashion:hover{
+    height: 400px;
+}
+
+.blog .july .fashion:hover .black-fon1{
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    width: 310px;
+    color: white;
+    height: 340px;
+    top: 20px;
+    position: absolute;
+    left: 30px;
+}
+
+.blog .july .fashion:hover .black-fon1 h4{
+    position: absolute;
+    color: white;
+    left: 10px;
+    top: 0;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blog .july .fashion:hover .black-fon1 p{
+    position: absolute;
+    top: 100px;
+    color: white;
+    left: 40px;
+}
+
+.blog .july .fashion:hover .black-fon1 h5{
+    width: 80%;
+    text-align: left;
+    position: absolute;
+    top: 110px;
+    left: 40px;
+
+}
+
+.blog .july .fashion .black-fon1 button{
+    opacity: 0;
+}
+
+.blog .july .fashion:hover .black-fon1 button{
+    padding: 20px 30px;
+    background-color: white;
+    opacity: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 220px;
+    left: 40px;
+}
+
+.blog .july .style{
+    position: relative;
+    left: -100px;
+    background: url(image\ 8.png) center / cover no-repeat;
+    width: 370px;
+    height: 370px;
+}
+
+.blog .july .style .black-fon2 h4{
+    color: white;
+    position: absolute;
+    top: -1px;
+    left: 20px;
+}
+
+.blog .july .style .black-fon2 p{
+    position: absolute;
+    font-size: 10px;
+    left: 3px;
+    top: 370px;
+}
+
+.blog .july .style .black-fon2 h5{
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 3px;
+    top: 375px;
+}
+
+.blog .july .style:hover{
+    height: 400px;
+}
+
+.blog .july .style:hover .black-fon2{
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    width: 310px;
+    color: white;
+    height: 340px;
+    top: 20px;
+    position: absolute;
+    left: 30px;
+}
+
+.blog .july .style:hover .black-fon2 h4{
+    position: absolute;
+    color: white;
+    left: 10px;
+    top: 0;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blog .july .style:hover .black-fon2 p{
+    position: absolute;
+    top: 100px;
+    color: white;
+    left: 40px;
+}
+
+.blog .july .style:hover .black-fon2 h5{
+    width: 80%;
+    text-align: left;
+    position: absolute;
+    top: 110px;
+    left: 40px;
+
+}
+
+
+.blog .july .style .black-fon2 button{
+    opacity: 0;
+}
+
+.blog .july .style:hover .black-fon2 button{
+    padding: 20px 30px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 220px;
+    left: 40px;
+    opacity: 1;
+}
+
+.blog .july .fashion2{
+    position: relative;
+    left: -100px;
+    background: url(Photo.png) center / cover no-repeat;
+    width: 370px;
+    height: 370px;
+}
+
+.blog .july .fashion2 .black-fon3 h4{
+    color: white;
+    position: absolute;
+    top: -1px;
+    left: 30px;
+}
+
+.blog .july .fashion2 .black-fon3 p{
+    position: absolute;
+    font-size: 10px;
+    left: 3px;
+    top: 370px;
+}
+
+.blog .july .fashion2 .black-fon3 h5{
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 3px;
+    top: 375px;
+}
+
+.blog .july .fashion2:hover{
+    height: 400px;
+}
+
+.blog .july .fashion2:hover .black-fon3{
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    width: 310px;
+    color: white;
+    height: 340px;
+    top: 20px;
+    position: absolute;
+    left: 30px;
+}
+
+.blog .july .fashion2:hover .black-fon3 h4{
+    position: absolute;
+    color: white;
+    left: 10px;
+    top: 0;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blog .july .fashion2:hover .black-fon3 p{
+    position: absolute;
+    top: 100px;
+    color: white;
+    left: 40px;
+}
+
+.blog .july .fashion2:hover .black-fon3 h5{
+    width: 80%;
+    text-align: left;
+    position: absolute;
+    top: 110px;
+    left: 40px;
+
+}
+
+.blog .july .fashion2 .black-fon3 button{
+    opacity: 0;
+}
+
+.blog .july .fashion2:hover .black-fon3 button{
+    padding: 20px 30px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 220px;
+    left: 40px;
+    opacity: 1;
+}
+
+.bg{
+    position: relative;
+    top: 2000px;
+    text-align: center;
+}
+
+.bg .h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: -100px;
+}
+
+.bg .p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: -100px;
+}
+
+.bg .img{
+    position: absolute;
+    left: 1300px;
+}
+
+.bg .comenteria{
+    display: grid;
+    gap: 20px;
+    row-gap: 50px;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-template-rows: 0.5fr;
+}
+
+.bg .comenteria .comenteria1, .comenteria2, .comenteria3, .comenteria4{
+    border: 1px solid gray;
+}
+
+.bg .comenteria .input{
+    display: block;
+    position: absolute;
+    top: 500px;
+    left: 690px;
+}
+
+.instagram{
+    position: relative;
+    top: 2300px;
+    text-align: center;
+    left: -150px;
+}
+
+.instagram h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 100px;
+}
+
+.instagram .img .div1 img{
+    opacity: 0;
+    position: absolute;
+    top: 130px;
+}
+
+.instagram .img .div2 img{
+    opacity: 0;
+    position: absolute;
+    top: 130px;
+}
+
+.instagram .img .div3 img{
+    opacity: 0;
+    position: absolute;
+    top: 130px;
+}
+
+.instagram .img .div4 img{
+    opacity: 0;
+    position: absolute;
+    top: 130px;
+}
+
+.instagram .img{
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 0.5 0.5 0.5 0.5;
+    grid-template-rows: 1fr;
+}
+
+.instagram .img .div1{
+    background: url(1.png) center / cover no-repeat;
+    width: 300px;
+    height: 320px;
+    position: relative;
+    left: 200px;
+}
+
+.instagram .img .div2{
+    background: url(2.png) center / cover no-repeat;
+    width: 300px;
+    height: 320px;
+    position: absolute;
+    left: 550px;
+}
+
+
+.instagram .img .div3{
+    background: url(3.png) center / cover no-repeat;
+    width: 300px;
+    height: 320px;
+    position: absolute;
+    left: 898px;
+}
+
+.instagram .img .div4{
+    background: url(4.png) center / cover no-repeat;
+    width: 300px;
+    height: 320px;
+    position: absolute;
+    left: 1245px;
+}
+
+.instagram .img .div1:hover .black{
+    background-color: black;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    opacity: 0.7;
+}
+
+.instagram .img .div1:hover .black img{
+    opacity: 1;
+}
+
+.instagram .img .div2:hover .black{
+    background-color: black;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    opacity: 0.7;
+}
+
+.instagram .img .div2:hover .black img{
+    opacity: 1;
+}
+
+.instagram .img .div3:hover .black{
+    background-color: black;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    opacity: 0.7;
+}
+
+.instagram .img .div3:hover .black img{
+    opacity: 1;
+}
+
+.instagram .img .div4:hover .black{
+    background-color: black;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    opacity: 0.7;
+}
+
+.instagram .img .div4:hover .black img{
+    opacity: 1;
+}
+
+
+.offter-newslatter{
+    position: relative;
+    top: 2600px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 0.4fr 0.4fr;
+    grid-template-rows: 1fr;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.offter-newslatter .offter{
+    height: 500px;
+    background: url(Photo2.png) center / cover no-repeat;
+    position: relative;
+}
+
+.offter-newslatter .offter .h1-1{
+    position: absolute;
+    top: 120px;
+    left: 240px;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.offter-newslatter .offter .h1-2{
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    font-size: 100px;
+    font-weight: 1200px;
+    font-family: sans-serif;
+}
+
+.offter-newslatter .offter h2{
+    position: absolute;
+    top: 220px;
+    left: 260px;
+    font-size: 55px;
+    font-family: sans-serif;
+}
+
+.offter-newslatter .newslatter{
+    height: 500px;
+    position: relative;
+    background: url(Photo3.png) center / cover no-repeat;
+}
+
+.offter-newslatter .newslatter h1{
+    font-size: 40px;
+    position: absolute;
+    top: 140px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 50px;
+}
+
+.offter-newslatter .newslatter p{
+    text-align: left;
+    position: absolute;
+    top: 220px;
+    left: 50px;
+}
+
+.offter-newslatter .newslatter input{
+    padding: 20px 60px;
+    border: 0;
+    position: absolute;
+    top: 310px;
+    width: 80%;
+    left: 50px;
+}
+
+.offter-newslatter .newslatter button{
+    padding: 20px 34px;
+    border: 0;
+    position: absolute;
+    top: 310px;
+    left: 421px;
+    background-color: rgb(95, 47, 0);
+    color: white;
+}
+
+.futter{
+    position: relative;
+    top: 2850px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 0.8fr 0.8fr 0.8fr 0.8fr;
+    grid-template-rows: 1fr;
+} 
+
+.futter .ebay .img1{
+    position: absolute;
+    left: 60px;
+    top: 25px;
+}
+
+.futter .ebay p{
+    color: gray;
+    text-align: left;
+    position: absolute;
+    left: 60px;
+    top: 43px;
+}
+
+.futter .ebay .img2{
+    position: absolute;
+    top: 110px;
+    left: 60px;
+}
+
+.futter .ebay  a{
+    color: black;
+    border-bottom: 1.5px solid black;
+    position: absolute;
+    top: 135px;
+    left: 60px;
+}
+
+.futter .support h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 375px;
+}
+
+.futter .support ul{
+    position: absolute;
+    top: 50px;
+    left: 340px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+.futter .support ul li a{
+    color: black;
+}
+
+.futter .quick h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 650px;
+}
+
+
+.futter .quick ul{
+    position: absolute;
+    top: 50px;
+    left: 615px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+.futter .quick ul li a{
+    color: black;
+}
+
+.futter .company h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 945px;
+}
+
+.futter .company ul{
+    position: absolute;
+    top: 50px;
+    left: 910px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+.futter .company ul li a{
+    color: black;
+}
+
+.futter .help h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 1230px;
+}
+
+.futter .help ul{
+    position: absolute;
+    top: 50px;
+    left: 1200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+.futter .help ul li a{
+    color: black;
+} 
+
+.bottom-text{
+    display: block;
+    position: relative;
+    top: 3060px;
+    margin-bottom: 1000px;
+}
+
+.bottom-text p{
+    color: gray;
+    position: absolute;
+    left: 60px;
+}
+
+.bottom-text p b{
+    color: #000;
+}
+
+.bottom-text img{
+    position: absolute;
+    left: 1250px;
+    top: 12px;
+}

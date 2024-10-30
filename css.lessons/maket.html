@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div class="dropdown">
+    <h3>Dropdown</h3>
+    <div class="dropdown-items">
+        <a href="#"  class="link-1" >Link-1</a>
+        <a href="#"  class="link-2" >Link-2</a>
+        <a href="#"  class="link-3" >Link-3</a>
+    </div>
+</div>
+
+</body>
+
+<style>
+
+ *{
+    padding: 0;
+    margin: 0;
+    transition: 1s;
+    box-sizing: border-box;
+ }
+
+ .dropdown{
+        cursor: pointer;
+        position: relative;
+        /* left: 45%; */
+        /* top: 10%; */
+        margin: 10% auto;
+        width: 15%;
+        background-color: #555;
+        color: snow;
+        text-align: center;
+        border-radius: 20px;
+        border: 3px solid rgba(0, 0, 0, 0.514);
+        padding: 15px;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: snow;
+        padding: 10px;
+        display: block;
+    }
+
+
+    .dropdown-items{
+        /* display: none; */
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        visibility: hidden;
+        width: 100%;
+    }
+
+    .dropdown:hover{
+        box-shadow: 0 0 5px 5px lightblue inset;
+    }
+    .dropdown:hover .dropdown-items{
+        top: 100%;
+        left: 0;
+        /* display: block; */
+        /* right: 0; */
+        visibility: visible;
+        background-color: #333;
+        opacity: 1;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    a:hover{
+        box-shadow: 0 0 10px 10px green inset;
+        border-radius: 20px;
+    }
+
+</style>
+
+</html>

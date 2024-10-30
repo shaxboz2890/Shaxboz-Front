@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="main">
+
+ <p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quas ipsum fugit nulla dolores nihil dolorum architecto aspernatur ex blanditiis, ullam dolorem repudiandae natus perferendis sequi quae perspiciatis illum vero obcaecati omnis? Velit molestiae autem nam in at, vitae perferendis et provident necessitatibus illum laudantium dolore, dolor nobis incidunt eius.
+ </p>
+
+<img src="/img/3.jpg" alt="">
+<img src="/img/3.jpg" alt="">
+<img src="/img/3.jpg" alt="">
+<br>
+<img class="hidden" src="/img/3.jpg" alt="">
+<img class="hidden" src="/img/3.jpg" alt="">
+<img class="hidden" src="/img/3.jpg" alt="">
+<br>
+<img src="/img/3.jpg" alt="">
+<img class="hidden" src="/img/3.jpg" alt="">
+<img src="/img/3.jpg" alt="">
+
+</div>
+
+</body>
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    transition: 0.5s;
+}
+
+body{
+    background-color: black;
+    color: snow;
+}
+
+.main{
+    background-color: #444;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    margin: 10px auto;
+}
+
+img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+.main:hover{
+   padding: 50px 100px;
+   background: url(/img/2.jpg) center / cover  no-repeat;
+   background-color: black;
+   background-blend-mode: darken;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+img:hover{
+    border: double 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    opacity: 3;
+}
+
+span{
+    border: 2px solid darkorange;
+    display: inline-block;
+    background-color: black;
+    border-radius: 10px;
+}
+
+span:hover{
+   padding: 20px;
+   background: ;
+}
+</style>
+
+</html>
